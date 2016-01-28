@@ -1,0 +1,61 @@
+#newyork {
+	background-image: url("images/newyork.jpg");
+	height: 100vh;
+	color: white;
+	background-attachment: fixed;
+	margin-bottom: 0;
+}
+
+#kampala {
+	height: 100vh;
+	background-image: url("images/kampala.jpg");
+	background-attachment: fixed;
+	margin-bottom: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, .7);
+	height: 50px;
+}
+
+ul.nav.navbar-nav.navbar-right a {
+	color: white;
+}
+ul.nav.navbar-nav.navbar-right a:hover {
+	color: black;
+	background-color: lightgray;
+}
+
+h1 {
+	width: 100%;
+	margin: 280px auto 0px;
+	font-weight: normal;
+
+}
+
+h2 {
+	margin: 0;
+	padding-top: .75em;
+	font-weight: normal;
+}
+
+p {
+	margin: 30px;
+}
+.divider {
+	height: 80px;
+	color: white;
+	background-color: rgb(0, 83, 85);
+	line-height: 20px;
+}
+
+.container {
+	margin-top: 15px;
+}
+
+#profilepic {
+	border-radius: 50px;
+	margin: 50px;
+	height: 300px;
+	border: solid 4px black;
+}
