@@ -14,15 +14,15 @@
 }
 
 #fabric {
-	height: 60vh;
+	height: 70vh;
 	background-image: url("images/fabric.jpg");
 	background-attachment: fixed;
 	margin-bottom: 0;
 }
 
-#sipi {
-	height: 60vh;
-	background-image: url("images/sipi.jpg");
+#fabric2 {
+	height: 36vh;
+	background-image: url("images/fabric.jpg");
 	background-attachment: fixed;
 	margin-bottom: 0;
 }
@@ -37,7 +37,17 @@ nav {
 
 }
 
-nav ul {
+.navleft {
+	float: left;
+	margin-left: 0.4em;
+	margin-top: 0.1em
+}
+
+#logo {
+	height:  50px;
+}
+
+.navright {
 	float: right;
 }
 
@@ -46,14 +56,16 @@ nav li {
 	font-size: 14px;
 	margin: 1.25em .8em 1em 0em;
 }
-nav a {
+
+.navright a {
 	text-decoration: none;
 	color: white;
 	padding: .5em;
 }
-nav a:hover {
+
+.navright a:hover {
 	color: black;
-	background-color: lightgray;
+	background-color: #f8f8f8;
 }
 
 h1 {
@@ -69,20 +81,7 @@ h2 {
 	margin: 0;
 	padding: .75em;
 	font-weight: normal;
-}
-
-.divider {
-	height: 80px;
-	color: white;
-	background-color: rgb(0, 83, 85);
-	line-height: 40px;
-}
-
-.main {
-	width: 90%;
-	margin: 0 auto;
-	padding: 2em;
-	overflow: auto;
+	font-size: 30px;
 }
 
 hr {
@@ -90,43 +89,67 @@ hr {
 	margin: 0 auto;
 }
 
+#about {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 50px 0px;
+	background-color: #f8f8f8;
+
+}
+
+#about li, #portfolio li {
+ 	list-style-type: none;
+ 	font-size: 18px;
+ 	padding: .8em;
+ }
+
+
 #profilepic {
 	border-radius: 50px;
 	height: 275px;
 	border: solid 4px black;
 	text-align: right;
 
+
 }
 
-.main li {
- 	list-style-type: none;
- 	padding: 1.2em;
- }
+#portfolio {
+	width: 100%;
+	padding: 50px 0px;
+}
 
 .work {
 	margin: 30px;
-	padding: 20px;
-	border: solid 5px black;
+	border: solid 2px black;
 	border-radius: 50%;
 	background-color: lightgray;
-	height: 250px;
+	height: 300px;
 }
 
-.travelpic {
-	border: solid 3px black;
-	background-color: white;
+#resume {
+	background-color: #f8f8f8;
+	padding: 50px 0px;
+}
+
+#my_resume {
+	margin: 20px;
+	width: 30%;
+}
+
+#contact {
+	color: white;
+	background-image: url(images/newyork.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+#contact-content {
+	padding-top: 40vh;
+}
+
+#contact li {
 	display: inline-block;
-	margin: 35px;
-}
-
-.travelpic img {
-	border: solid 1px black;
-	margin: 15px;
-	height: 12em;
-
-}
-
-.travelpic p {
-	font-style: italic;
-	margin-bottom: 15px;
+	padding: .6em;
+	font-size: 20px;
 }

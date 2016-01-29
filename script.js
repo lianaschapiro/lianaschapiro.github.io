@@ -7,12 +7,8 @@ $(document).ready(function(){
 	    'opacity' : 1-(($(this).scrollTop())/300)
 	    });         
 	});  
+  
 
-
-
-
-
-}); 	   
-
+});
 
 // $.stellar();
