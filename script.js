@@ -1,13 +1,18 @@
-$.stellar();
+$(document).ready(function(){
 
-// $(document).ready(function(){
-// $('nav').hide();
-	// $(window).scroll(function(){
- //        if ($(this).scrollTop() > 200) {
- //            $('nav').fadeIn(650),
- //            // $('#introText').fadeOut(400)
- //        } else {
- //            $('nav').fadeOut(650),
- //            // $('#introText').fadeIn(400);
- //        }
- //    });
+
+	// Fades out my name when page is scrolled
+	$(window).scroll(function() {
+	    $("#headline").css({
+	    'opacity' : 1-(($(this).scrollTop())/300)
+	    });         
+	});  
+
+
+
+
+
+}); 	   
+
+
+// $.stellar();
