@@ -1,0 +1,24 @@
+
+body {
+	background-image: url("images/paper.jpg");
+	background-size: cover;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 5% auto 0%;
+	text-align: center;
+	list-style-position: inside;
+}
+
+#newItemForm {
+	margin: 2% 0px 35px;
+}
+
+#header {
+	font-size: 40px;
+}

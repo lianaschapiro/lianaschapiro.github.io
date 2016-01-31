@@ -11,6 +11,7 @@
 	color: white;
 	background-attachment: fixed;
 	margin-bottom: 0;
+	overflow: hidden;
 }
 
 #fabric {
@@ -39,8 +40,7 @@ nav {
 
 .navleft {
 	float: left;
-	margin-left: 0.4em;
-	margin-top: 0.1em
+	margin-top: 0.05em
 }
 
 #logo {
@@ -49,6 +49,7 @@ nav {
 
 .navright {
 	float: right;
+	z-index: 100;
 }
 
 nav li {
@@ -61,14 +62,15 @@ nav li {
 	text-decoration: none;
 	color: white;
 	padding: .5em;
+
 }
 
 .navright a:hover {
 	color: black;
-	background-color: #f8f8f8;
+	background-color: white;
 }
 
-h1 {
+#headline {
 	clear: both;
 	margin: 45vh auto;
 	font-size: 70px;
@@ -79,9 +81,11 @@ h1 {
 
 h2 {
 	margin: 0;
-	padding: .75em;
-	font-weight: normal;
+	padding-top: .95em;
+	padding-bottom: .50em;
+	font-weight:normal;
 	font-size: 30px;
+	color: #007FB2;
 }
 
 hr {
@@ -110,8 +114,6 @@ hr {
 	height: 275px;
 	border: solid 4px black;
 	text-align: right;
-
-
 }
 
 #portfolio {
@@ -144,8 +146,16 @@ hr {
 	background-attachment: fixed;
 }
 
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+
 #contact-content {
-	padding-top: 40vh;
+	margin-top: 40vh;
+	position: fixed;
+	top:0;
+	width: 100%;
 }
 
 #contact li {
