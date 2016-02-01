@@ -1,8 +1,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 	text-align: center;
+	font-family: sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 }
 
 #newyork {
@@ -11,7 +12,6 @@
 	color: white;
 	background-attachment: fixed;
 	margin-bottom: 0;
-	overflow: hidden;
 }
 
 #fabric {
@@ -29,12 +29,14 @@
 }
 
 nav {
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, .5);
 	height: 50px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	border-bottom: solid 1px white;
+	opacity: 0;
+/*	display: none;*/
 
 }
 
@@ -49,7 +51,6 @@ nav {
 
 .navright {
 	float: right;
-	z-index: 100;
 }
 
 nav li {
@@ -77,6 +78,7 @@ nav li {
 	font-weight: normal;
 	position: fixed;
 	width: 100%;
+
 }
 
 h2 {
@@ -98,7 +100,7 @@ hr {
 	margin: 0 auto;
 	overflow: auto;
 	padding: 50px 0px;
-	background-color: #f8f8f8;
+	background-color: #f1f1f1;
 
 }
 
@@ -122,15 +124,32 @@ hr {
 }
 
 .work {
-	margin: 30px;
-	border: solid 2px black;
-	border-radius: 50%;
-	background-color: lightgray;
-	height: 300px;
+	display: none;
+	height: 350px;
+	margin: 0 auto;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#fumblr {
+	background-image: url("images/portfolio/fumblr.png");
+}
+#corvus {
+	background-image: url("images/portfolio/corvus.png");
+}
+#list {
+	background-image: url("images/portfolio/paper2.jpg");
+}
+#brain {
+	background-image: url("images/portfolio/brainlobes2.jpg");
+}
+#petlounge {
+	background-image: url("images/portfolio/bpl.png");
 }
 
 #resume {
-	background-color: #f8f8f8;
+	background-color: #f1f1f1;
 	padding: 50px 0px;
 }
 
@@ -156,6 +175,7 @@ hr {
 	position: fixed;
 	top:0;
 	width: 100%;
+	display: none;
 }
 
 #contact li {
