@@ -24,7 +24,7 @@ $(document).ready(function(){
 	
 		//Fades in the portfolio projects when page is scrolled
 		if (y > 800) {
-      		$('.one').show('slide', {direction: 'left'}, 100);
+      		$('.one').show('slide', {direction: 'left'}, 1000);
       		$('.two').delay(1000).show('slide', {direction: 'left'}, 1000);
       		$('.three').delay(2000).show('slide', {direction: 'left'}, 1000);
       		$('.four').delay(3000).show('slide', {direction: 'left'}, 1000);
