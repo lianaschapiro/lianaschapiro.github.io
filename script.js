@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 	
 	if (($('#about').offset().top - $(window).scrollTop()) < 400) {
@@ -7,8 +6,7 @@ $(document).ready(function(){
 	    		});
 	};
 
-	
-	
+	// Events that happen when page is scrolled	
 	$(window).scroll(function() {
 		var y = $(this).scrollTop();
 
@@ -26,29 +24,17 @@ $(document).ready(function(){
 	
 		//Fades in the portfolio projects when page is scrolled
 		if (y > 800) {
-      		$('#fumblr').show("clip", 1000);
-    	}
-    	if (y > 1150) {
-      		$('#corvus').show("clip", 1000);
-    	}
-    	if (y > 1500) {
-      		$('#list').show("clip", 1000);
-    	}
-    	if (y > 1850) {
-      		$('#brain').show("clip", 1000);
-    	}
-    	if (y > 2200) {
-      		$('#petlounge').show("clip", 1000);
-    	}
+      		$('.one').show('slide', {direction: 'left'}, 100);
+      		$('.two').delay(1000).show('slide', {direction: 'left'}, 1000);
+      		$('.three').delay(2000).show('slide', {direction: 'left'}, 1000);
+      		$('.four').delay(3000).show('slide', {direction: 'left'}, 1000);
+      		$('.five').delay(4000).show('slide', {direction: 'left'}, 1000);
+      		$('.six').delay(5000).show('slide', {direction: 'left'}, 1000);
+		}
 
-
-
-
-
-
-	    // Fades contact information in/out when page is scrolled
-		// if($(window).scrollTop() + $(window).height() > $(document).height() - ($(document).height() * .08)) {
-     	if (($('#contact').offset().top - $(window).scrollTop()) < 220) {
+		// Fades contact information in/out when page is scrolled
+		// if(y + $(window).height() > $(document).height() - ($(document).height() * .08)) {
+		if ($('#contact').offset().top - y < 220) {
 			$("#contact-content").fadeIn();
 	    }
 	    else {
@@ -56,7 +42,4 @@ $(document).ready(function(){
 	    };
 	});
 
-
 });
-
-// $.stellar();

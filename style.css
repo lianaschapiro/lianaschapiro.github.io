@@ -14,20 +14,6 @@
 	margin-bottom: 0;
 }
 
-#fabric {
-	height: 70vh;
-	background-image: url("images/fabric.jpg");
-	background-attachment: fixed;
-	margin-bottom: 0;
-}
-
-#fabric2 {
-	height: 36vh;
-	background-image: url("images/fabric.jpg");
-	background-attachment: fixed;
-	margin-bottom: 0;
-}
-
 nav {
 	background-color: rgba(0, 0, 0, .5);
 	height: 50px;
@@ -36,8 +22,6 @@ nav {
 	width: 100%;
 	border-bottom: solid 1px white;
 	opacity: 0;
-/*	display: none;*/
-
 }
 
 .navleft {
@@ -100,7 +84,7 @@ hr {
 	margin: 0 auto;
 	overflow: auto;
 	padding: 50px 0px;
-	background-color: #f1f1f1;
+	background-color: #FFD17A;
 
 }
 
@@ -110,21 +94,39 @@ hr {
  	padding: .8em;
  }
 
-
-#profilepic {
-	border-radius: 50px;
-	height: 275px;
-	border: solid 4px black;
-	text-align: right;
-}
-
 #portfolio {
 	width: 100%;
 	padding: 50px 0px;
+	overflow: auto;
+	background-color:white ;
 }
 
 .work {
-	display: none;
+		padding: 1%;
+	margin: 0 0 2.5% 5%;
+	display:none;
+	float: left;
+	width: 350px;
+	background-color: #FFD17A;
+	overflow: auto;
+
+}
+
+.workdescription {
+	clear: both;
+	width: 100%;
+	display: inline-block;
+}
+
+.workdescription p {
+	margin: 0 auto;
+	padding: 10px 0px;
+	color: black;
+}
+
+.workpicture {
+	display: inline-block;
+	width: 100%;
 	height: 350px;
 	margin: 0 auto;
 	background-size: contain;
@@ -132,8 +134,23 @@ hr {
 	background-repeat: no-repeat;
 }
 
-#fumblr {
-	background-image: url("images/portfolio/fumblr.png");
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+#third_goal {
+	background-image: url("images/portfolio/coming-soon.jpg");
+}
+
+#street_report {
+	background-image: url("images/portfolio/streetreport.png");
+}
+
+#shipster {
+	background-image: url("images/portfolio/shipster.png");
 }
 #corvus {
 	background-image: url("images/portfolio/corvus.png");
@@ -144,12 +161,11 @@ hr {
 #brain {
 	background-image: url("images/portfolio/brainlobes2.jpg");
 }
-#petlounge {
-	background-image: url("images/portfolio/bpl.png");
-}
 
 #resume {
-	background-color: #f1f1f1;
+	clear: both;
+	background-color: #FFD17A;
+	margin-top: -40px;
 	padding: 50px 0px;
 }
 

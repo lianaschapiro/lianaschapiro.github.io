@@ -11,12 +11,12 @@ $(document).ready(function() {
 	    $(this).toggleClass('complete');
 	});
 
-$('ul').on('dblclick', "li", function(){
-			var complete = confirm("Are you sure you want to remove this item?");
-		    if (complete == true){
-		    	$(this).remove();
-		    } else {
-		    	return false;
-		    }
-		});
+	$('ul').on('dblclick', "li", function(){
+		var complete = confirm("Are you sure you want to remove this item?");
+	    if (complete == true){
+	    	$(this).remove();
+	    } else {
+	    	return false;
+	    }
+	});
 });
