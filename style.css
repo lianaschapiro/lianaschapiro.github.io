@@ -102,11 +102,11 @@ hr {
 }
 
 .work {
-		padding: 1%;
+	padding: 1%;
 	margin: 0 0 2.5% 5%;
 	display:none;
 	float: left;
-	width: 350px;
+	width: 25%;
 	background-color: #FFD17A;
 	overflow: auto;
 
