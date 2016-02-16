@@ -102,11 +102,11 @@ hr {
 }
 
 .work {
-	padding: 2% .5% 1%;
-	margin: 0 0 2.5% 3.2%;
+	padding: 2% 2% 1%;
+	margin: 0 0 3% 3.8%;
 	display:none;
 	float: left;
-	width: 28%;
+	width: 350px;
 	background-color: #FFD17A;
 	overflow: auto;
 
@@ -114,7 +114,7 @@ hr {
 
 .workdescription {
 	clear: both;
-	width: 100%;
+	width: 350px;
 	display: inline-block;
 }
 
@@ -126,7 +126,7 @@ hr {
 
 .workpicture {
 	display: inline-block;
-	width: 100%;
+	width: 350px;
 	height: 350px;
 	margin: 0 auto;
 	background-size: contain;

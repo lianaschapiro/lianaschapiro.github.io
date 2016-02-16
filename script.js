@@ -24,12 +24,13 @@ $(document).ready(function(){
 	
 		//Fades in the portfolio projects when page is scrolled
 		if (y > 800) {
-      		$('.one').show('slide', {direction: 'left'}, 1000);
-      		$('.two').delay(1000).show('slide', {direction: 'left'}, 1000);
-      		$('.three').delay(2000).show('slide', {direction: 'left'}, 1000);
-      		$('.four').delay(3000).show('slide', {direction: 'left'}, 1000);
-      		$('.five').delay(4000).show('slide', {direction: 'left'}, 1000);
-      		$('.six').delay(5000).show('slide', {direction: 'left'}, 1000);
+      		$('.one').fadeIn(500);
+      		$('.two').delay(300).fadeIn(500);
+      		$('.three').delay(800).fadeIn(500);
+      		$('.four').delay(1300).fadeIn(500);
+      		$('.five').delay(1800).fadeIn(500);
+      		$('.six').delay(2300).fadeIn(500);
+      		// $('.six').delay(4000).show('slide', {direction: 'left'}, 800);
 		}
 
 		// Fades contact information in/out when page is scrolled
