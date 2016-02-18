@@ -3,7 +3,6 @@
 	padding: 0;
 	text-align: center;
 	font-family: sans-serif;
-	/*font-family: 'Raleway', sans-serif;*/
 }
 
 #newyork {
@@ -134,13 +133,6 @@ hr {
 	background-repeat: no-repeat;
 }
 
-.right {
-	float: right;
-}
-
-.left {
-	float: left;
-}
 #third_goal {
 	background-image: url("images/portfolio/coming-soon.jpg");
 }
@@ -198,4 +190,20 @@ hr {
 	display: inline-block;
 	padding: .6em;
 	font-size: 20px;
+}
+
+
+@media all and (max-width: 520px) {
+	#headline {
+		font-size: 55px;
+	}
+	.work {
+		margin: 5% 0;
+		width: 100%;
+		padding: 6% 0;
+	}
+	.workpicture {
+		width: 300px;
+		height: 300px;
+	}
 }
