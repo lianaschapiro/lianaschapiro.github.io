@@ -195,6 +195,17 @@ hr {
 
 
 @media all and (max-width: 520px) {
+	#logo {
+		display: none;
+	}
+	nav li {
+		font-size: 12px;
+
+	}
+	.navright {
+		float: none;
+	}
+
 	#headline {
 		font-size: 55px;
 	}
