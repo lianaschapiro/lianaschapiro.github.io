@@ -24,12 +24,13 @@ $(document).ready(function(){
 	
 		//Fades in the portfolio projects when page is scrolled
 		if (y > 800) {
-      		$('.one').fadeIn(1000);
-      		$('.two').delay(300).fadeIn(1000);
-      		$('.three').delay(600).fadeIn(1000);
-      		$('.four').delay(900).fadeIn(1000);
-      		$('.five').delay(1200).fadeIn(1000);
-      		$('.six').delay(1500).fadeIn(1000);
+      		$('.one').animate({opacity: 1}, 1000);
+      		$('.two').delay(300).animate({opacity: 1}, 1000);
+      		$('.three').delay(600).animate({opacity: 1}, 1000);
+      		$('.four').delay(900).animate({opacity: 1}, 1000);
+      		$('.five').delay(1200).animate({opacity: 1}, 1000);
+      		$('.six').delay(1500).animate({opacity: 1}, 1000);
+
       		// $('.six').delay(4000).show('slide', {direction: 'left'}, 800);
 		}
 

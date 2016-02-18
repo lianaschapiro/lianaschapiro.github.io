@@ -43,12 +43,14 @@ nav li {
 }
 
 .navright a {
-	text-decoration: none;
 	color: white;
 	padding: .5em;
 
 }
 
+a{
+	text-decoration: none;
+}
 .navright a:hover {
 	color: black;
 	background-color: white;
@@ -102,18 +104,17 @@ hr {
 
 .work {
 	padding: 2% 2% 1%;
-	margin: 0 0 3% 3.8%;
-	display:none;
-	float: left;
+	margin: 0 2% 3% 2%;
+	opacity:0;
+	display: inline-block;
 	width: 350px;
 	background-color: #FFB183;
 	overflow: auto;
-
 }
 
 .workdescription {
 	clear: both;
-	width: 350px;
+	width: 100%;
 	display: inline-block;
 }
 
@@ -125,7 +126,7 @@ hr {
 
 .workpicture {
 	display: inline-block;
-	width: 350px;
+	width: 100%;
 	height: 350px;
 	margin: 0 auto;
 	background-size: contain;
@@ -198,12 +199,13 @@ hr {
 		font-size: 55px;
 	}
 	.work {
-		margin: 5% 0;
-		width: 100%;
-		padding: 6% 0;
-	}
-	.workpicture {
+		margin-bottom: 5%;
 		width: 300px;
+		/*padding: 0 10px;*/
+	}
+
+	.workpicture {
 		height: 300px;
 	}
+
 }
