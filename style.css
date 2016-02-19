@@ -200,6 +200,7 @@ hr {
 	}
 	nav li {
 		font-size: 12px;
+		margin: 1.5em .8em 1em 0em;
 
 	}
 	.navright {
@@ -212,7 +213,6 @@ hr {
 	.work {
 		margin-bottom: 5%;
 		width: 300px;
-		/*padding: 0 10px;*/
 	}
 
 	.workpicture {
