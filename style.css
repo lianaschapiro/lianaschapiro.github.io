@@ -104,11 +104,11 @@ hr {
 
 .work {
 	padding: 2% 2% 1%;
-	margin: 0 2% 3% 2%;
+	margin: 3%;
 	opacity:0;
 	display: inline-block;
 	width: 350px;
-	background-color: #FFB183;
+	background-color: rgba(31, 139, 176, 0.4);
 	overflow: auto;
 }
 
