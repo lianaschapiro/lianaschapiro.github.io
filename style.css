@@ -154,6 +154,9 @@ hr {
 #brain {
 	background-image: url("images/portfolio/brainlobes2.jpg");
 }
+#yule_log {
+	background-image: url("images/portfolio/yulelog.png");
+}
 
 #resume {
 	clear: both;
