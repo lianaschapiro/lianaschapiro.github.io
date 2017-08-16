@@ -134,6 +134,10 @@ hr {
 	background-repeat: no-repeat;
 }
 
+#lavanila {
+	background-image: url("images/portfolio/lavanila.png");
+}
+
 #third_goal {
 	background-image: url("images/portfolio/thirdgoal.png");
 }
@@ -145,15 +149,19 @@ hr {
 #shipster {
 	background-image: url("images/portfolio/shipster.png");
 }
+
 #corvus {
 	background-image: url("images/portfolio/corvus.png");
 }
+
 #list {
 	background-image: url("images/portfolio/paper2.jpg");
 }
+
 #brain {
 	background-image: url("images/portfolio/brainlobes2.jpg");
 }
+
 #yule_log {
 	background-image: url("images/portfolio/yulelog.png");
 }
