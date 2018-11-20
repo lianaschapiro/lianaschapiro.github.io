@@ -34,26 +34,24 @@ nav {
 
 .navright {
 	float: right;
+	margin-right: 10px;
 }
 
 nav li {
+	cursor: pointer;
 	display: inline-block;
 	font-size: 14px;
-	margin: 1.25em .8em 1em 0em;
+	margin: 7px 0 0;
+	padding: 10px;
 }
 
-.navright a {
-	color: white;
-	padding: .5em;
-
-}
-
-a{
-	text-decoration: none;
-}
-.navright a:hover {
+.navright li:hover {
 	color: black;
 	background-color: white;
+}
+
+a {
+	text-decoration: none;
 }
 
 #headline {
@@ -63,7 +61,6 @@ a{
 	font-weight: normal;
 	position: fixed;
 	width: 100%;
-
 }
 
 h2 {
@@ -138,24 +135,8 @@ hr {
 	background-image: url("images/portfolio/lavanila.png");
 }
 
-#third_goal {
-	background-image: url("images/portfolio/thirdgoal.png");
-}
-
 #street_report {
 	background-image: url("images/portfolio/streetreport.png");
-}
-
-#shipster {
-	background-image: url("images/portfolio/shipster.png");
-}
-
-#corvus {
-	background-image: url("images/portfolio/corvus.png");
-}
-
-#list {
-	background-image: url("images/portfolio/paper2.jpg");
 }
 
 #brain {
@@ -211,11 +192,12 @@ hr {
 	}
 	nav li {
 		font-size: 12px;
-		margin: 1.5em .8em 1em 0em;
+		margin: 8px 0 0;
 
 	}
 	.navright {
 		float: none;
+		margin-right: 0;
 	}
 
 	#headline {
