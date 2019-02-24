@@ -7,6 +7,8 @@
 
 #newyork {
 	background-image: url("images/newyork.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
 	color: white;
 	background-attachment: fixed;
