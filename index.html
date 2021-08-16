@@ -1,167 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Liana Schapiro</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-	<script src="script.js"></script>
-	<meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Liana Schapiro</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta property="og:title" content="Liana Schapiro">
+  <meta property="og:description" content="I make websites come to life">
+  <meta property="og:image" content="https://lianaschapiro.com/assets/img/me.jpg">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Folio - v4.3.0
+  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
 
-	<!-- Initial div with parallax scrolling -->
-	<div id="newyork">
-		<nav>
-				<ul class="navleft">
-					<a href="http://lianaschapiro.com"><img id="logo" src="images/LS_logo.png"></a>
-				</ul>
-				<ul class="navright">
-					<li class="nav-link" data-id="about">ABOUT</li>
-					<li class="nav-link" data-id="portfolio">PORTFOLIO</li>
-					<li class="nav-link" data-id="contact">CONTACT</li>
-				</ul>
-		</nav>
-		<h1 id="headline">LIANA &nbsp;//&nbsp; SCHAPIRO</h1>
-	</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
 
-	<!-- ABOUT section -->
-	<div id="about" >
-		<h2>ABOUT ME</h2>
-			<hr>
-			<ul>
-				<li>full-stack developer</li>
-				<li>returned Peace Corps volunteer</li>
-				<li>language enthusiast</span></li>
-				<li>neuroscientist</li>
-				<li>world traveler</li>
-				<li>economist</li>
-			</ul>
-	</div>
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
-	<!-- PORTFOLIO section -->
-	<div id="portfolio">
-		<h2>PORTFOLIO</h2>
-		<hr>
-		<ul>
-			<li>Check out some of my recent work:</li>
-		</ul>
-		<a href="https://www.lavanila.com/" target="_blank">
-			<div class="work one">
-				<div id="lavanila" class="workpicture">
-				</div>
-				<br>
-				<div class="workdescription">
-					<p>
-					<b>LAVANILA</b>
-					</p>
-					<p>
-					Natural deodorants and skincare.<br><br>
-					</p>
-					<p>
-					Skills used:<br><b>Shopify / JavaScript / jQuery </b><br><br><br>
-					</p>
-					<p>
-					lavanila.com
-					</p>
-				</div>
-			</div>
-		</a>
-		<a href="http://www.watchyulelog.com/" target="_blank">
-			<div class="work two">
-				<div id="yule_log" class="workpicture">
-				</div>
-				<br>
-				<div class="workdescription">
-					<p>
-					<b>YULE LOG</b>
-					</p>
-					<p>
-					Animated shorts for good cause.<br><br>
-					</p>
-					<p>
-					Skills used:<br><b>Wordpress / JavaScript / jQuery / MySQL</b><br><br><br>
-					</p>
-					<p>
-					watchyulelog.com
-					</p>
-				</div>
-			</div>
-		</a>
-		<a href="http://street-report.com" target="_blank">
-			<div class="work three">
-				<div id="street_report" class="workpicture">
-				</div>
-				<br>
-				<div class="workdescription">
-					<p>
-					<b>STREET REPORT</b>
-					</p>
-					<p>
-					Anonymously report street harassment and track it on this map-based app.
-					</p>
-					<p>
-					Skills used:<br><b>Ruby / Rails / Google Maps API / jQuery / JavaScript / AJAX / ActiveRecord / SQLite / PostgreSQL / JSON / SASS </b>
-					</p>
-					<p>
-					street-report.com
-					</p>
-				</div>
-			</div>
-		</a>
-		<a href="braingame.html" target="_blank">
-			<div class="work four">
-				<div id="brain" class="workpicture">
-				</div>
-				<div class="workdescription">
-					<p>
-					<b>BRAIN GAME</b>
-					</p>
-					<p>
-					Test your knowledge of brain anatomy with this fun fill in the blanks style quiz game.
-					<br><br>
-					</p>
-					<p>
-					Skills used:<br><b>jQuery / DOM manipulation</b><br><br>
-					</p>
-					<p>
-					Click here to play
-					</p>
-				</div>
-			</div>
-		</a>
-	</div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
+<!--       <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-	<!-- CONTACT section -->
-	<div class="data-stellar-ratio='2'" id="contact">
-		<div id="contact-content">
-			<h2>CONTACT ME</h2>
-			<hr>
-				<ul>
-					<li class="icon">
-						<a href="https://github.com/lianaschapiro" target="_blank">
-							<img src="images/github.png" height="75px">
-						</a>
-					</li>
-					&nbsp; &nbsp;
-					<li class="icon">
-						<a href="mailto:liana.schapiro@gmail.com?Subject=Web%20Development%20Inquiry" target="_blank">
-							<img src="images/email.png" height="75px">
-						</a>
-					</li>
-					&nbsp; &nbsp;
-					<li class="icon">
-						<a href="https://www.linkedin.com/in/lianaschapiro" target="_blank">
-							<img src="images/linkedin.png" height="75px">
-						</a>
-					</li>
-				</ul>
-		</div>
-	</div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="home">
+
+    <div class="container">
+      <div class="hero-content">
+        <h1><span class="typed" data-typed-items="Liana Schapiro"></span></h1>
+        <p>Software Engineer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a target="_blank" href="https://github.com/lianaschapiro"><i class="bi bi-github"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/lianaschapiro/"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="assets/img/me.jpg" class="img-responsive" alt="me">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="about-descr">
+
+              <p class="p-heading">I bring websites to life.</p>
+              <p class="separator">I am a software engineer who creates exciting digital experiences for business, people and events. Currently, I work at KPMG building websites to showcase our data & analytics, automation, & other AI solutions.</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <div id="services">
+      <div class="container">
+
+        <div class="services-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-cart3"></i>
+                <span>SHOPIFY SITES</span>
+                <p class="separator">Gorgeous, e-commerce websites with fun user experiences for your clients.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-file-earmark-code"></i>
+                <span>SITE REDESIGNS</span>
+                <p class="separator">A fresh look or total rebrand for your entire website.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-stars"></i>
+                <span>B&#39NAI MITZVAH SITES</span>
+                <p class="separator">Celebrate the big day with an original site that keeps your guests updated.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-shop"></i>
+                <span>SMALL BUSINESS SITES</span>
+                <p class="separator">Create a strong web presence for your business and keep clients informed.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-person-bounding-box"></i>
+                <span>PERSONAL WEBSITES</span>
+                <p class="separator">Increase your personal brand and attract clients with a beautiful site.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-tools"></i>
+                <span>ONGOING MAINTENANCE</span>
+                <p class="separator">Need a developer to help with odds, ends and fixes? Contact me.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </div><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <div id="portfolio" class="paddsection">
+
+      <div class="container">
+
+
+        <div class="section-title text-center">
+					<div class="row">
+
+            <div class="col-lg-6 offset-lg-3">
+		          <h2>Selected Work</h2>
+		          <p>Due to privacy, I don't display B'nai Mitzvah websites here. If you would like to see some examples, please contact me.</p>
+						</div>
+
+					</div>
+
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-shopify">Shopify</li>
+              <!-- <li data-filter=".filter-mitzvah">Mitzvah Sites</li> -->
+              <li data-filter=".filter-wordpress">WordPress</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>The Sill</h4>
+              <p>E-commerce plant brand</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://www.thesill.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Lavanila</h4>
+              <p>Natural skincare and deodorant</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://www.lavanila.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>The Write Occasion</h4>
+              <p>Full-service event planning</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://writeoccasionmd.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Mock Reality</h4>
+              <p>Customizable design mockups</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://mockreality.shop/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Abortion Access Front</h4>
+              <p>Reproductive rights advocacy</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://www.aafront.org/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Essence Makeup</h4>
+              <p>Colorful affordable makeup</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a target = "_blank" href="https://essencemakeup.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Portfolio Section -->
+
+    <!-- ======= Journal Section ======= -->
+    <!-- <div id="journal" class="text-left paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>journal</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="journal-block">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+    <!-- End Journal Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1 section-title text-center">
+          <div class="row">
+
+            <div class="col-lg-6 offset-lg-3">
+              <div class="contact-contact">
+                <h2 >GET IN TOUCH</h2>
+                <p>Whether it's a custom website, a redesign, or just some maintenance, send me a message at <span style="color:#292929;font-weight:bold;">liana.schapiro@gmail.com</span> and let's work together!</p>
+              </div>
+            </div>
+
+
+            <!-- <div class="col-lg-6 offset-lg-1">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row gy-3">
+
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+
+                  <div class="mt-0">
+                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  </div>
+
+                </div>
+              </form>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a target="_blank" href="https://github.com/lianaschapiro"><i class="bi bi-github"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/lianaschapiro/"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Liana Schapiro | All rights reserved.</p>
+      <div id="credits">
+      <p>Hero photography by Danielle Hyams</p>
+    </div>
+
+    </div>
+  </div><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
