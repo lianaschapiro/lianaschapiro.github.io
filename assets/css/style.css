@@ -222,7 +222,7 @@ p {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -324,7 +324,7 @@ p {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #4b4a4a;
@@ -456,7 +456,7 @@ p {
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: #fff;
   font-weight: 500;
 }
